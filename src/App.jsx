@@ -9,6 +9,7 @@ import Dashboard from "./pages/Dashboard.jsx";
 import Workouts from "./pages/Workouts.jsx";
 import Goals from "./pages/Goals.jsx";
 import Profile from "./pages/Profile.jsx";
+import LogWorkout from "./pages/LogWorkout.jsx";
 
 const queryClient = new QueryClient();
 
@@ -53,6 +54,7 @@ const App = () => {
               <Route path="workouts" element={<Workouts />} />
               <Route path="goals" element={<Goals />} />
               <Route path="profile" element={<Profile />} />
+              <Route path="log-workout" element={<LogWorkout />} />
             </Route>
           </Routes>
         </Router>
